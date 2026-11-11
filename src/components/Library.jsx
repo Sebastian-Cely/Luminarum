@@ -4,7 +4,7 @@ export default function Library() {
       <div className="container">
         <div className="feature-split">
           <div className="feature-media reveal">
-            <img src="/assets/banner.png" alt="La biblioteca arcana de Luminarum" />
+            <img src={`${import.meta.env.BASE_URL}assets/banner.png`} alt="La biblioteca arcana de Luminarum" />
           </div>
 
           <div className="feature-copy reveal">

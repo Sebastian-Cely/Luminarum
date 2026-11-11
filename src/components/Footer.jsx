@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/assets/logo-white.png" alt="Sello de Luminarum" />
+            <img src={`${import.meta.env.BASE_URL}assets/logo-white.png`} alt="Sello de Luminarum" />
             <div className="wordmark">LUMINARUM</div>
             <p>
               La universidad etérea de magia y brujería. Educación arcana viva,

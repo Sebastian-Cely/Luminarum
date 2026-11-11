@@ -39,12 +39,12 @@ export default function Hero() {
 
           <div className="hero-visual reveal">
             <div className="hero-orb" />
-            <img className="hero-seal" src="/assets/logo-white.png" alt="Sello rúnico de Luminarum" />
+            <img className="hero-seal" src={`${import.meta.env.BASE_URL}assets/logo-white.png`} alt="Sello rúnico de Luminarum" />
           </div>
         </div>
 
         <div className="hero-banner-strip reveal">
-          <img src="/assets/banner.png" alt="El cosmos arcano de Luminarum" />
+          <img src={`${import.meta.env.BASE_URL}assets/banner.png`} alt="El cosmos arcano de Luminarum" />
         </div>
       </div>
     </header>

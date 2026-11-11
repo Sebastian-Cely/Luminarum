@@ -3,7 +3,7 @@ export default function CTA() {
     <section className="section cta-final">
       <div className="container">
         <div className="cta-card reveal">
-          <img className="cta-seal" src="/assets/logo-white.png" alt="" aria-hidden="true" />
+          <img className="cta-seal" src={`${import.meta.env.BASE_URL}assets/logo-white.png`} alt="" aria-hidden="true" />
           <span className="eyebrow">Tu iniciación te espera</span>
           <h2>El umbral está abierto</h2>
           <p>

@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
         <a href="#top" className="nav-brand">
-          <img src="/assets/logo-white.png" alt="Sello de Luminarum" />
+          <img src={`${import.meta.env.BASE_URL}assets/logo-white.png`} alt="Sello de Luminarum" />
           <span className="wordmark">LUMINARUM</span>
         </a>
         <div className="nav-links">
